@@ -1,13 +1,15 @@
 //
 //  GameViewController.swift
-//  Pimple Popper MD
+//  PPMD_1
 //
-//  Created by Grant Potter on 4/20/15.
+//  Created by Grant Potter on 4/16/15.
 //  Copyright (c) 2015 Homebodies. All rights reserved.
 //
 
 import UIKit
 import SpriteKit
+import Social
+
 
 extension SKNode {
     class func unarchiveFromFile(file : String) -> SKNode? {
@@ -26,30 +28,52 @@ extension SKNode {
 }
 
 class GameViewController: UIViewController {
-
+    
+    func showTweetSheet() {
+        let tweetSheet = SLComposeViewController(forServiceType: SLServiceTypeTwitter)
+        tweetSheet.completionHandler = {
+            result in
+            switch result {
+            case SLComposeViewControllerResult.Cancelled:
+                break
+                
+            case SLComposeViewControllerResult.Done:
+                
+                break
+            }
+        }
+        
+        tweetSheet.setInitialText("I just popped some zits in Pimple Popper MD!")
+        
+        self.presentViewController(tweetSheet, animated: false, completion: {
+        })
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "showTweetSheet", name: "tweetNotify", object: nil)
+        
+        
         if let scene = GameScene.unarchiveFromFile("GameScene") as? GameScene {
-            // Configure the view.
-            let skView = self.view as! SKView
-            skView.showsFPS = true
-            skView.showsNodeCount = true
             
-            /* Sprite Kit applies additional optimizations to improve rendering performance */
+            let skView = self.view as! SKView
+            
+            
             skView.ignoresSiblingOrder = true
             
-            /* Set the scale mode to scale to fit the window */
-            scene.scaleMode = .AspectFill
+            
+            scene.size = skView.bounds.size
+            scene.scaleMode = SKSceneScaleMode.AspectFill
             
             skView.presentScene(scene)
         }
     }
-
+    
     override func shouldAutorotate() -> Bool {
         return true
     }
-
+    
     override func supportedInterfaceOrientations() -> Int {
         if UIDevice.currentDevice().userInterfaceIdiom == .Phone {
             return Int(UIInterfaceOrientationMask.AllButUpsideDown.rawValue)
@@ -57,12 +81,12 @@ class GameViewController: UIViewController {
             return Int(UIInterfaceOrientationMask.All.rawValue)
         }
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Release any cached data, images, etc that aren't in use.
+        
     }
-
+    
     override func prefersStatusBarHidden() -> Bool {
         return true
     }
