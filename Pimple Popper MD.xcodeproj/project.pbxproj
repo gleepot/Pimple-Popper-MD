@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		410A92901AE5796100DEBEA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410A928F1AE5796100DEBEA7 /* AppDelegate.swift */; };
+		410A92921AE5796100DEBEA7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 410A92911AE5796100DEBEA7 /* GameScene.sks */; };
+		410A92941AE5796100DEBEA7 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410A92931AE5796100DEBEA7 /* GameScene.swift */; };
+		410A92961AE5796100DEBEA7 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410A92951AE5796100DEBEA7 /* GameViewController.swift */; };
+		410A92991AE5796100DEBEA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410A92971AE5796100DEBEA7 /* Main.storyboard */; };
+		410A929B1AE5796100DEBEA7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 410A929A1AE5796100DEBEA7 /* Images.xcassets */; };
+		410A929E1AE5796100DEBEA7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 410A929C1AE5796100DEBEA7 /* LaunchScreen.xib */; };
+		410A92AA1AE5796100DEBEA7 /* Pimple_Popper_MDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410A92A91AE5796100DEBEA7 /* Pimple_Popper_MDTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		410A92A41AE5796100DEBEA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 410A92821AE5796100DEBEA7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 410A92891AE5796100DEBEA7;
+			remoteInfo = "Pimple Popper MD";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		410A928A1AE5796100DEBEA7 /* Pimple Popper MD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pimple Popper MD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		410A928E1AE5796100DEBEA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		410A928F1AE5796100DEBEA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		410A92911AE5796100DEBEA7 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		410A92931AE5796100DEBEA7 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		410A92951AE5796100DEBEA7 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		410A92981AE5796100DEBEA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		410A929A1AE5796100DEBEA7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		410A929D1AE5796100DEBEA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		410A92A31AE5796100DEBEA7 /* Pimple Popper MDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pimple Popper MDTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		410A92A81AE5796100DEBEA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		410A92A91AE5796100DEBEA7 /* Pimple_Popper_MDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pimple_Popper_MDTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		410A92871AE5796100DEBEA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410A92A01AE5796100DEBEA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		410A92811AE5796100DEBEA7 = {
+			isa = PBXGroup;
+			children = (
+				410A928C1AE5796100DEBEA7 /* Pimple Popper MD */,
+				410A92A61AE5796100DEBEA7 /* Pimple Popper MDTests */,
+				410A928B1AE5796100DEBEA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		410A928B1AE5796100DEBEA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				410A928A1AE5796100DEBEA7 /* Pimple Popper MD.app */,
+				410A92A31AE5796100DEBEA7 /* Pimple Popper MDTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		410A928C1AE5796100DEBEA7 /* Pimple Popper MD */ = {
+			isa = PBXGroup;
+			children = (
+				410A928F1AE5796100DEBEA7 /* AppDelegate.swift */,
+				410A92911AE5796100DEBEA7 /* GameScene.sks */,
+				410A92931AE5796100DEBEA7 /* GameScene.swift */,
+				410A92951AE5796100DEBEA7 /* GameViewController.swift */,
+				410A92971AE5796100DEBEA7 /* Main.storyboard */,
+				410A929A1AE5796100DEBEA7 /* Images.xcassets */,
+				410A929C1AE5796100DEBEA7 /* LaunchScreen.xib */,
+				410A928D1AE5796100DEBEA7 /* Supporting Files */,
+			);
+			path = "Pimple Popper MD";
+			sourceTree = "<group>";
+		};
+		410A928D1AE5796100DEBEA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				410A928E1AE5796100DEBEA7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		410A92A61AE5796100DEBEA7 /* Pimple Popper MDTests */ = {
+			isa = PBXGroup;
+			children = (
+				410A92A91AE5796100DEBEA7 /* Pimple_Popper_MDTests.swift */,
+				410A92A71AE5796100DEBEA7 /* Supporting Files */,
+			);
+			path = "Pimple Popper MDTests";
+			sourceTree = "<group>";
+		};
+		410A92A71AE5796100DEBEA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				410A92A81AE5796100DEBEA7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		410A92891AE5796100DEBEA7 /* Pimple Popper MD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 410A92AD1AE5796100DEBEA7 /* Build configuration list for PBXNativeTarget "Pimple Popper MD" */;
+			buildPhases = (
+				410A92861AE5796100DEBEA7 /* Sources */,
+				410A92871AE5796100DEBEA7 /* Frameworks */,
+				410A92881AE5796100DEBEA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pimple Popper MD";
+			productName = "Pimple Popper MD";
+			productReference = 410A928A1AE5796100DEBEA7 /* Pimple Popper MD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		410A92A21AE5796100DEBEA7 /* Pimple Popper MDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 410A92B01AE5796100DEBEA7 /* Build configuration list for PBXNativeTarget "Pimple Popper MDTests" */;
+			buildPhases = (
+				410A929F1AE5796100DEBEA7 /* Sources */,
+				410A92A01AE5796100DEBEA7 /* Frameworks */,
+				410A92A11AE5796100DEBEA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				410A92A51AE5796100DEBEA7 /* PBXTargetDependency */,
+			);
+			name = "Pimple Popper MDTests";
+			productName = "Pimple Popper MDTests";
+			productReference = 410A92A31AE5796100DEBEA7 /* Pimple Popper MDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		410A92821AE5796100DEBEA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Homebodies;
+				TargetAttributes = {
+					410A92891AE5796100DEBEA7 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					410A92A21AE5796100DEBEA7 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 410A92891AE5796100DEBEA7;
+					};
+				};
+			};
+			buildConfigurationList = 410A92851AE5796100DEBEA7 /* Build configuration list for PBXProject "Pimple Popper MD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 410A92811AE5796100DEBEA7;
+			productRefGroup = 410A928B1AE5796100DEBEA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				410A92891AE5796100DEBEA7 /* Pimple Popper MD */,
+				410A92A21AE5796100DEBEA7 /* Pimple Popper MDTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		410A92881AE5796100DEBEA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410A929E1AE5796100DEBEA7 /* LaunchScreen.xib in Resources */,
+				410A929B1AE5796100DEBEA7 /* Images.xcassets in Resources */,
+				410A92921AE5796100DEBEA7 /* GameScene.sks in Resources */,
+				410A92991AE5796100DEBEA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410A92A11AE5796100DEBEA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		410A92861AE5796100DEBEA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410A92941AE5796100DEBEA7 /* GameScene.swift in Sources */,
+				410A92961AE5796100DEBEA7 /* GameViewController.swift in Sources */,
+				410A92901AE5796100DEBEA7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410A929F1AE5796100DEBEA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410A92AA1AE5796100DEBEA7 /* Pimple_Popper_MDTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		410A92A51AE5796100DEBEA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 410A92891AE5796100DEBEA7 /* Pimple Popper MD */;
+			targetProxy = 410A92A41AE5796100DEBEA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		410A92971AE5796100DEBEA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				410A92981AE5796100DEBEA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		410A929C1AE5796100DEBEA7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				410A929D1AE5796100DEBEA7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		410A92AB1AE5796100DEBEA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		410A92AC1AE5796100DEBEA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		410A92AE1AE5796100DEBEA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pimple Popper MD/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		410A92AF1AE5796100DEBEA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pimple Popper MD/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		410A92B11AE5796100DEBEA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pimple Popper MDTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pimple Popper MD.app/Pimple Popper MD";
+			};
+			name = Debug;
+		};
+		410A92B21AE5796100DEBEA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Pimple Popper MDTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pimple Popper MD.app/Pimple Popper MD";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		410A92851AE5796100DEBEA7 /* Build configuration list for PBXProject "Pimple Popper MD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410A92AB1AE5796100DEBEA7 /* Debug */,
+				410A92AC1AE5796100DEBEA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		410A92AD1AE5796100DEBEA7 /* Build configuration list for PBXNativeTarget "Pimple Popper MD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410A92AE1AE5796100DEBEA7 /* Debug */,
+				410A92AF1AE5796100DEBEA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		410A92B01AE5796100DEBEA7 /* Build configuration list for PBXNativeTarget "Pimple Popper MDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410A92B11AE5796100DEBEA7 /* Debug */,
+				410A92B21AE5796100DEBEA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 410A92821AE5796100DEBEA7 /* Project object */;
+}
